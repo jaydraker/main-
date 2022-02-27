@@ -51,8 +51,7 @@ def SaisirEquipe(liste_equipe):
 
 
 def affichage_pronostic():
-
-!
+    print("Vous etes bien sur la partie de l'affichage")
 
 
 def menu():
@@ -77,9 +76,9 @@ def menu():
         SaisirEquipe(liste_equipe)
        
     if choix == "2" :
-        print("Affichage des combinaisons ")
+        
+        affichage_pronostic()
         os.system('pause')
-        affichage_pronostic(fichier_equipe)
 
     if choix == "3" :
         print("Bye Bye (-.-)")
